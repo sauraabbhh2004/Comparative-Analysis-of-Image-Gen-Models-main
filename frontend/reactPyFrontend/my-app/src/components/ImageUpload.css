@@ -1,0 +1,137 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .upload-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5722;
+  }
+  
+  /* Upload Section */
+  .upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+  }
+  
+  .upload-card {
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .upload-header h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .upload-body {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .upload-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-success {
+    padding: 10px 30px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #e64a19;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .proceed:hover {
+    background-color: #e64a19;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+  /* Footer */
+  .footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .footer-section a {
+    color: #ff5722;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  

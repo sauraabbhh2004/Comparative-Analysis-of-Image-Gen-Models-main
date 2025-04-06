@@ -1,0 +1,100 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.prompt-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%; /* Full width */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Prompt Section */
+.prompt-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 60px 20px; /* Reduced padding for smaller screens */
+    background-color: #e5f0ff;
+}
+
+.tableauPlaceholder {
+    width: 100%;
+    max-width: 1200px; /* Ensures responsiveness */
+    height: auto;
+}
+
+/* Footer Section */
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-section a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .prompt-section {
+        padding: 40px 15px;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+}
